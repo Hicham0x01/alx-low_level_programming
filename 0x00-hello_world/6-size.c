@@ -7,6 +7,7 @@
  *
  * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	printf("size of a char: %u byte(s)\n", sizeof(char));
