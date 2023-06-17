@@ -1,22 +1,22 @@
-#include <stdio.h>
-
+#include <stdlib.h>
 #include <time.h>
-
 #include <stdio.h>
-
 
 /**
- * main - Prints a text according number
- * Return: Always (Success)
+ * main - Entry point
+ *
+ * Description: print the value of n status
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
 	int n, lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	lastd = n % 10;
 
 	if (lastd > 5)
 	{
