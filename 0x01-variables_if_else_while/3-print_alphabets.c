@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet
+ * main - Entry point
+ *
+ * Description: prints the alphabet
  *
  * Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	char ch = 'a';
@@ -20,7 +23,7 @@ int main(void)
 	/*prints A - Z*/
 	while (CH <= 'Z')
 	{
-		putchr(CH);
+		putchar(CH);
 		CH++;
 	}
 	putchar('\n');
