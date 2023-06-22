@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * _isalpha - cheks if character is a letter both lowercase
@@ -8,7 +8,7 @@
  * Return: 1 is c if else 0
 */
 
-int -isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
