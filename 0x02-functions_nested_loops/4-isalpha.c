@@ -1,11 +1,11 @@
-#include "main.h"
+#include"main.h"
 
 /**
- *  _isalpha - cheks if character is a letter both lowercase or uppercase
+ * _isalpha - cheks if character is a letter both lowercase
  *
- *  @c: takes input from other functions.
+ * @c: takes input from other functions.
  *
- *  Return: 1 is c if else 0
+ * Return: 1 is c if else 0
 */
 
 int -isalpha(int c)
